@@ -41,9 +41,6 @@ body {
 .navigation_links a:active {
   color: var(--selection-color);
 }
-.navigation_links {
-  text-decoration: none;
-}
 .contact_links a {
   text-decoration: none;
   font-size: 14px;
@@ -120,17 +117,16 @@ body {
 }
 .footer_address .link_address {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--main-white-color);
   line-height: 1.88rem;
   letter-spacing: 0, 03em;
 }
 .footer_address a {
   text-decoration: none;
 }
-.footer_address.link_address:hover,
-.footer_address.link_address:focus,
-.footer_address,
-.link_address:active {
+.footer_address .link_address:hover,
+.footer_address .link_address:focus,
+.footer_address .link_address:active {
   color: var(--selection-color);
 }
 .footer_address .contact_links {
