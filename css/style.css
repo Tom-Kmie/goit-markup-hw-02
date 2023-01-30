@@ -27,10 +27,6 @@ body {
 .web_logo_top {
   color: var(--selection-color);
 }
-.web_logo_bottom {
-}
-.span_logo_bottom {
-}
 .navigation_links {
   font-size: 14px;
   color: var(--bodycolor-text);
@@ -38,10 +34,14 @@ body {
   line-height: 1.14rem;
   letter-spacing: 0.02em;
 }
+
 .navigation_links a:hover,
 .navigation_links a:focus,
-.contact_links a:active {
+.navigation_links a:active {
   color: var(--selection-color);
+}
+.navigation_links {
+  text-decoration: none;
 }
 .contact_links {
   text-decoration: none;
@@ -50,6 +50,9 @@ body {
   line-height: 1, 14rem;
   letter-spacing: 0.02;
   color: var(--text-color);
+}
+.navigation_links a {
+  text-decoration: none;
 }
 .contact_links a:hover,
 .contact_links a:focus,
@@ -123,6 +126,9 @@ body {
   line-height: 1.88rem;
   letter-spacing: 0, 03em;
 }
+.footer_address a {
+  text-decoration: none;
+}
 .footer_address.link_address:hover,
 .footer_address.link_address:focus,
 .footer_address,
@@ -146,7 +152,7 @@ button[type="button"] {
 }
 button[type="button"]:hover,
 button[type="button"]:focus,
-button[type="button"]active {
+button[type="button"]:active {
   color: var(--main-white-color);
   background-color: var(--selection-color);
 }
@@ -160,10 +166,10 @@ button[type="button"]active {
 .web_logo_bottom {
   color: var(--selection-color);
 }
-.studio_logo_botom {
+.studio_logo_bottom {
   color: var(--main-white-color);
 }
-.background-footer {
+.footer_area {
   background-color: var(--footerbackground-color);
 }
 .specialist_section {
