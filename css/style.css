@@ -27,12 +27,13 @@ body {
 .web_logo_top {
   color: var(--selection-color);
 }
-.navigation_links {
+.navigation_links a {
   font-size: 14px;
   color: var(--bodycolor-text);
   font-weight: 500;
   line-height: 1.14rem;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .navigation_links a:hover,
@@ -43,16 +44,13 @@ body {
 .navigation_links {
   text-decoration: none;
 }
-.contact_links {
+.contact_links a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 14rem;
   letter-spacing: 0.02;
   color: var(--text-color);
-}
-.navigation_links a {
-  text-decoration: none;
 }
 .contact_links a:hover,
 .contact_links a:focus,
