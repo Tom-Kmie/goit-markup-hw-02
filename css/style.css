@@ -1,10 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.web_logo{
+.web_logo_top{
 
 }
-.studio_logo{
+.studio_logo_top{
+
+}
+.web_logo_bottom{
+
+}
+.span_logo_bottom{
 
 }
 .navigation_links{
@@ -44,6 +50,21 @@ body {
 
 }
 .lower_caption{
+
+}
+.footer_area{
+
+}
+.footer_address{
+
+}
+.link_address{
+
+}
+.button{
+
+}
+.caption_projekts{
     
 }
 

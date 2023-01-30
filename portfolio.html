@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,12 +14,12 @@
   <body>
     <header>
       <a href="./index.html"
-        ><span class="web_logo">Web</span
-        ><span class="studio_logo"> Studio</span></a
+        ><span class="web_logo_top">Web</span
+        ><span class="studio_logo_top"> Studio</span></a
       >
       <nav>
         <ul class="navigation_links">
-          <li><a href="#">Agencja</a></li>
+          <li><a href="./index.html">Agencja</a></li>
           <li><a href="./portfoilo.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
@@ -31,7 +31,7 @@
     </header>
     <main>
       <div>
-        <ul>
+        <ul class="button">
           <li>
             <button type="button">Wszystkie</button>
           </li>
@@ -51,9 +51,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Technocrak</p>
-                <p>Strona internetowa</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Technocrak</p>
+                <p class="lower_caption">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -65,9 +65,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Grafika New Orlean vs Golden Star</p>
-                <p>Dizajn</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Grafika New Orlean vs Golden Star</p>
+                <p class="lower_caption">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -79,9 +79,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Restauracja Seafood</p>
-                <p>Aplikacja</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Restauracja Seafood</p>
+                <p class="lower_caption">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -93,9 +93,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Projekt Prime</p>
-                <p>Marketing</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Projekt Prime</p>
+                <p class="lower_caption">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -107,9 +107,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Projekt Boxes</p>
-                <p>Aplikacja</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Projekt Boxes</p>
+                <p class="lower_caption">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -121,9 +121,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Inspiration has no Borders</p>
-                <p>Strona Internetowa</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Inspiration has no Borders</p>
+                <p class="lower_caption">Strona Internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -135,9 +135,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Magazyn Limited Edition</p>
-                <p>Dizajn</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Magazyn Limited Edition</p>
+                <p class="lower_caption">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -149,9 +149,9 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Projekt LAB</p>
-                <p>Marketing</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Projekt LAB</p>
+                <p class="lower_caption">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -163,29 +163,37 @@
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <p>Growing Business</p>
-                <p>Aplikacja</p>
+              <figcaption class="caption_projekts">
+                <p class="upper_caption">Growing Business</p>
+                <p class="lower_caption">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer_area">
       <a href="./index.html"
-        ><span class="web_studio">Web</span
-        ><span class="studio_logo"> Studio</span></a
+        ><span class="web_logo_bottom">Web</span
+        ><span class="studio_logo_bottom"> Studio</span></a
       >
       <address>
-        <ul>
+        <ul class="footer_address">
           <li>
-            <a href="https://goo.gl/maps/q3WPrfQFME7vEifA9"
+            <a class="link_address" href="https://goo.gl/maps/q3WPrfQFME7vEifA9"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="contakct_links" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contakct_links" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
